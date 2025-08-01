@@ -22,6 +22,7 @@ border: 20px solid #ffe4fa;
 }
 .CHeading{
 height: 1rem;
+justify-content: center;
 width: 15rem;
 display: flex;
 color:rgb(56, 38, 7);
