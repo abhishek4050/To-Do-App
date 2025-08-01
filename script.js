@@ -1,9 +1,16 @@
+let input = document.querySelector("#task");
+input.addEventListener("keypress", (e)=>{
+ if(e.key==="Enter"){
+   addTask();
+ }
+});
 let addbtn = document.querySelector("#Addbtn");
 addbtn.addEventListener("click", addTask);
 
+
 function addTask(){
 
- let input = document.querySelector("#task");
+
 let task = input.value.toUpperCase();
 if(task ==="") return ;
 
